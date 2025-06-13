@@ -18,8 +18,8 @@ public class TaskCommon {
 
     public static void update() {
 
-        // Log.runtime("TaskCommon Update:");
-        // long currentTimeMillis = System.currentTimeMillis();
+        Log.runtime("TaskCommon Update:");
+        long currentTimeMillis = System.currentTimeMillis();
         // List<String> isEnergyTime = BaseModel.getEnergyTime().getValue();
         // if (isEnergyTime.contains("-1")) {
         //     IS_ENERGY_TIME = false;
