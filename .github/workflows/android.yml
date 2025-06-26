@@ -12,7 +12,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  # 授予写权限，用于创建 release
     steps:
       - name: Set Timezone to Asia/Shanghai
         run: |
